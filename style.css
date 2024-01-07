@@ -1,0 +1,231 @@
+@font-face {
+    font-family: myFont;
+    src: url(BebasNeue.otf);
+}
+
+@keyframes fadeInTop {
+    0% { opacity: 0; transform: translate3d(0, -50px, 0);}
+    100% { opacity: 1; transform: translate3d(0, -0, 0);}
+  }
+
+  @keyframes nav-hover-on {
+    0% { color: #b81d23; font-size: 28px;}
+    100% { color: #fff; font-size: 36px;}
+  }
+  @keyframes nav-hover-off {
+    0% { color: #fff; font-size: 36px;}
+    100% { color: #b81d23; font-size: 28px;}
+  }
+
+body{
+    font-family: myFont;
+    background-color: #000;
+    color: #fff;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+}
+
+main section{
+    width: 60%;
+    border-radius: 5px;
+    border: 2px solid #fff;
+    padding: 10px;
+    margin: 50px auto;
+    padding: 20px 40px;
+    background-color: #221F1F;
+}
+
+p{
+    width: 90%;
+    margin: 20px auto;
+    word-spacing: 10px;
+}
+
+h3{
+    text-decoration: underline;
+    text-align: center;
+}
+
+.links a{
+    font-size: 28px;
+    text-decoration: none;
+    color: #b81d23;
+    
+    animation: nav-hover-off 0.2s;
+}
+
+.links a:hover{
+    color: white;    
+    font-size: 36px;
+    animation: nav-hover-on 0.4s;
+
+}
+
+.links{
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    margin: auto 10%;
+    align-items: center;
+}
+.links a {
+    display: flex;
+    align-content: space-around;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.logos p{
+    font-size: 40px;
+    color: #b81d23;
+    margin-left: 36px;
+    margin-right: 30%;
+}
+
+.logos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#series-info{
+    align-items: center;
+  display: inline-flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+    margin-bottom: 0px;
+  padding: 0;
+}
+
+#series-info li{
+    font-size: 18px;
+}
+
+.trailer{
+    margin: 20px auto;
+    width: 150%
+}
+
+section h1{
+    font-size: 34px;
+}
+
+#presentation{
+    display: flex;
+}
+
+#presentation-text{
+    padding: 20px;
+    width: 80%;
+}
+
+label{
+margin: 0px 12px;
+}
+
+#presentation-text p{
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+h2{
+    font-size: 18px;
+    font-weight: initial;
+}
+
+footer{
+    background-color: #b81d23;
+    text-align: center;
+}
+
+.icon{
+    margin-left: 20px;
+    color: #e50914;
+    display: flex;
+    align-items: center;
+}
+
+.icon i{
+    margin-right: 12px;
+}
+
+
+.logreg{
+    display: flex ;
+    width: 60%;
+    margin: 50px auto;
+}
+
+form{
+    width: 40%;
+    border-radius: 5px;
+    border: 2px solid #fff;
+    margin: 20px auto;
+    padding: 24px;
+    
+    background-color: #221F1F;
+}
+
+form input{
+    margin: 16px 10px;
+}
+
+form label{
+    font-size: 24px;
+}
+
+form h2{
+    font-size: 28px;
+    color: #e50914;
+}
+
+form button{
+    font-family: myFont;
+    background-color: #fff;
+    color: #221F1F;
+}
+
+form button:hover{
+    cursor: pointer;
+}
+
+.cast section img{
+    border-radius: 150px;
+    margin-right: 20px;
+}
+
+.cast section{
+    display: flex;
+    width: 36%;
+    margin: 10px;
+}
+
+.cast .actors{
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    margin: 20px auto;
+}
+
+.cast h2{
+    font-size: 24px;
+}
+
+.cast h3{
+    font-weight:normal;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.cast h1{
+    text-align: center;
+    color: #b81d23;;
+}
+
+.logreg{
+    margin-bottom: 250px;
+}
