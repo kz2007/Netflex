@@ -46,11 +46,38 @@ h3{
     text-align: center;
 }
 
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.logos{
+    display: flex;
+    align-items: center;
+}
+
+.logos p{
+    font-size: 40px;
+    color: #b81d23;
+    margin-left: 36px;
+    margin-right: 30%;
+}
+
+.links{
+    display: flex;
+    width: 30%;
+    margin: auto 10%;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
 .links a{
     font-size: 28px;
     text-decoration: none;
     color: #b81d23;
-    
+
     animation: nav-hover-off 0.2s;
 }
 
@@ -61,35 +88,6 @@ h3{
 
 }
 
-.links{
-    display: flex;
-    justify-content: space-between;
-    width: 30%;
-    margin: auto 10%;
-    align-items: center;
-}
-.links a {
-    display: flex;
-    align-content: space-around;
-    
-}
-nav{
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-}
-.logos p{
-    font-size: 40px;
-    color: #b81d23;
-    margin-left: 36px;
-    margin-right: 30%;
-}
-
-.logos{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
 
 #series-info{
     align-items: center;
